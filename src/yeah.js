@@ -1,0 +1,1 @@
+module.exports = 'yeah how are you mate? not too bad thanks how about you?'
