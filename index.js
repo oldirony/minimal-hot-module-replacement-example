@@ -1,10 +1,11 @@
 const path = require('path')
 const express = require('express')
-const app = express();
-const webpack = require('webpack');
-const webpackDev = require('webpack-dev-middleware');
-const webpackHot = require('webpack-hot-middleware');
-const webpackConfig = require('./webpack.config');
+const app = express()
+const webpack = require('webpack')
+const webpackDev = require('webpack-dev-middleware')
+const webpackHot = require('webpack-hot-middleware')
+const webpackConfig = require('./webpack.config')
+
 const compiler = webpack(webpackConfig)
 
 app.use(webpackDev(compiler, {
