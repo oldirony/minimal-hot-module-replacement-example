@@ -1,3 +1,11 @@
+How many times have you heard of _Hot Module Replacement_?
+
+And how many times have you used it, without knowing exactly knowing how to enable it?
+
+On the Internet there are many examples with React, but it's very hard to find just the bare-bones of what's required to activate it.
+
+Hence this repo.
+
 # How to add hot module replacement in you server?
 
 1. Add `webpack-hot-middleware/client` as one of your entries in the Webpack configuration (`./webpack.config.js`).
