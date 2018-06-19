@@ -13,7 +13,7 @@ Hence this repo.
 ```javascript
   entry: [
     "webpack-hot-middleware/client",
-    path.join(__dirname,"src/app.js")
+    path.join(__dirname,"src/client.js")
   ],
 ```
 
@@ -25,7 +25,7 @@ Hence this repo.
   ]
 ```
 
-3. In your main client js file (`./src/app.js` in this instance) activate the module reload with this conditional function
+3. In your main client js file (`./src/client.js` in this instance) activate the module reload with this conditional function
 
 ```javascript
 if (module.hot) {
